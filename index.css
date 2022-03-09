@@ -1,0 +1,55 @@
+body,
+html {
+  box-sizing: border-box;
+  background-color: white;
+}
+.section {
+  padding: 1.5rem 0.5rem;
+}
+.title {
+  text-align: center;
+}
+form label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+form input,
+form select {
+  width: 100%;
+  border: 1px solid #ced4da;
+  padding: 0.3rem;
+}
+form input:focus,
+form select:focus {
+  border: none;
+  outline: 1px solid #ced4da;
+}
+.other input {
+  width: 1rem;
+  margin-left: 0;
+}
+.btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-top: 1.5rem;
+  background-color: #212529;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+  .name-group,
+  .tel-group {
+    display: inline-block;
+    width: 48%;
+  }
+  .tel-group {
+    float: right;
+  }
+}
